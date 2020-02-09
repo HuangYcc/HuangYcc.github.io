@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>博客名</title>
+  <title>看明天</title>
   
-  <subtitle>副标题</subtitle>
+  <subtitle>在那最开始的地方</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://huangycc.github.io/"/>
@@ -10,7 +10,7 @@
   <id>http://huangycc.github.io/</id>
   
   <author>
-    <name>作者名</name>
+    <name>元财</name>
     
   </author>
   
