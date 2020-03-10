@@ -146,7 +146,7 @@
   </li>
         <li class="menu-item menu-item-categories">
 
-    <a href="/categories/" rel="section"><i class="fa fa-fw fa-th"></i>分类</a>
+    <a href="/categories/" rel="section"><i class="fa fa-fw fa-th 分类"></i>分类</a>
 
   </li>
         <li class="menu-item menu-item-archives">
@@ -244,6 +244,25 @@
     });
   }
 </script>
+
+<% if (page.comments) { %>
+<!-- gitment评论框 start -->
+	<div id="gitment" class="ds-thread"></div>
+	<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+	<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+	<script>
+	  var gitment = new Gitment({
+	    id: 'l<%= page.date %>', // 可选。建议为<%= page.date %>
+	    owner: 'huangycc', // 可以是你的GitHub用户名，也可以是github id
+	    repo: 'huangycc.github.io/', //可以是你的任意一个repo，推荐使用githubpage所在的repo
+	    oauth: {
+	      client_id: '9a88298c98f17f2831e1',//填入上一步骤复制的Client ID
+	      client_secret: '2096a7c7ae1c43484151365875a17454576268ae',//填入上一步骤复制的Client Secret
+	    },
+	  })
+	  gitment.render('gitment')
+</script>
+<% } %>
 
         </div>
           
