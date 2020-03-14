@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://huangycc.github.io/"/>
-  <updated>2020-03-14T05:59:24.991Z</updated>
+  <updated>2020-03-14T16:08:39.791Z</updated>
   <id>http://huangycc.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>功能新增之评论与阅读数</title>
+    <link href="http://huangycc.github.io/2020/03/14/%E5%8A%9F%E8%83%BD%E6%96%B0%E5%A2%9E%E4%B9%8B%E8%AF%84%E8%AE%BA%E4%B8%8E%E9%98%85%E8%AF%BB%E6%95%B0/"/>
+    <id>http://huangycc.github.io/2020/03/14/%E5%8A%9F%E8%83%BD%E6%96%B0%E5%A2%9E%E4%B9%8B%E8%AF%84%E8%AE%BA%E4%B8%8E%E9%98%85%E8%AF%BB%E6%95%B0/</id>
+    <published>2020-03-14T15:24:58.000Z</published>
+    <updated>2020-03-14T16:08:39.791Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="忆丝独白"><a href="#忆丝独白" class="headerlink" title="忆丝独白"></a>忆丝独白</h4><blockquote><p>想建个简单博客来着，一开始的计划是，普普通通就好，万事开头难嘛。毕竟之前也弄过一段时间，结果嘛，也没成功。现在回想起来就像是胡思乱搞一般。这次的寒假期间，由于疫情的危机，在家的时间便多了起来，看看教程，在网上的操作指引下，也算是终于把GitHub和博客都弄的基本成型,也逐渐掌握。</p></blockquote><h3 id="简略步骤"><a href="#简略步骤" class="headerlink" title="简略步骤"></a>简略步骤</h3><h4 id="评论"><a href="#评论" class="headerlink" title="评论"></a>评论</h4><blockquote><ul><li>使用Valine评论系统<a href="https://leancloud.cn/" target="_blank" rel="noopener" title="Valine">点击注册</a></li></ul></blockquote><blockquote><ul><li>认证….</li></ul></blockquote><blockquote><ul><li>新建应用（免费即可），存储–&gt;创建Class，命名必须分别为 Comment和 Counter</li></ul></blockquote><blockquote><ul><li>进入应用-&gt;设置-&gt;应用key —&gt; 打开应用key，获取appid和appkey</li></ul><ol><li>打开主题配置文件 themes/next/_config.yml 文件 </li><li>搜索 valine，填入appid 和 appkey    </li><li>Leancloud -&gt; 设置 -&gt; 安全中心 -&gt; Web 安全域名 填入域名，刷新可见评论！</li></ol></blockquote><h4 id="浏览数"><a href="#浏览数" class="headerlink" title="浏览数"></a>浏览数</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">启用浏览false改为true</span><br><span class="line">notify: true # mail notifier , https:&#x2F;&#x2F;github.com&#x2F;xCss&#x2F;Valine&#x2F;wiki</span><br></pre></td></tr></table></figure><h4 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h4><blockquote><p>选择最新版本的Valine :  <a href="https://www.jsdelivr.com/package/npm/valine" target="_blank" rel="noopener">https://www.jsdelivr.com/package/npm/valine</a></p></blockquote><hr><h4 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h4><p>具体步骤的话网上有很多，当然写这个也是让自己回忆步骤，也是一份小惊喜的完成&gt;_&lt;<br>最最最最后…..<br>hexo g<br>hexo d<br>hexo s<br>Ctrl + C 退出<br>未完待续………</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h4 id=&quot;忆丝独白&quot;&gt;&lt;a href=&quot;#忆丝独白&quot; class=&quot;headerlink&quot; title=&quot;忆丝独白&quot;&gt;&lt;/a&gt;忆丝独白&lt;/h4&gt;&lt;blockquote&gt;
+&lt;p&gt;想建个简单博客来着，一开始的计划是，普普通通就好，万事开头难嘛。毕竟之前也弄过一段时间，结果嘛，也
+      
+    
+    </summary>
+    
+    
+      <category term="博客的进化之路" scheme="http://HuangYcc.github.io/categories/%E5%8D%9A%E5%AE%A2%E7%9A%84%E8%BF%9B%E5%8C%96%E4%B9%8B%E8%B7%AF/"/>
+    
+    
+      <category term="功能" scheme="http://HuangYcc.github.io/tags/%E5%8A%9F%E8%83%BD/"/>
+    
+  </entry>
   
   <entry>
     <title>学生管理系统</title>
